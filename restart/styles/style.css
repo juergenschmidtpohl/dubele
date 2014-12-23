@@ -1,0 +1,438 @@
+
+/*************
+stylesheet dubele
+***************/
+/* Fonts */
+
+body { 
+  background-image: url('../bilder/Streifenhintergrund_klein.jpg');
+  font-family: 'Roboto Slab',serif;  
+	font-size: 14px;
+	font-weight: 400;
+	color:  #47423F;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	}
+
+h1 { 
+	font-size: 48px;
+	line-height: 1.0em;
+}
+h2 { 
+	font-size: 30px;
+	line-height: 1.0em;
+}
+
+button {
+	height: 2em;
+	-webkit-box-shadow: 2px 2px 3px 1px #aaa; /* WebKit */
+	-moz-box-shadow: 2px 2px 3px 1px #aaa; /* Firefox */
+	box-shadow: 2px 2px 3px 1px #aaa; /* Standard */ 	
+	border-radius: 5px;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	background-color: #ccc;
+}
+button:hover {
+		background-color: #ddd;
+}
+button:active {
+	-webkit-box-shadow: -2px -2px 3px 1px #aaa; /* WebKit */
+	-moz-box-shadow: -2px -2px 3px 1px #aaa; /* Firefox */
+	box-shadow: -2px -2px 3px 1px #aaa; /* Standard */ 	
+	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+/* Farben */
+
+.rot { color: #c22d16; }
+.gruen { color: #45f958; }
+.blau { color: #1f6fa5; }
+.violett { color: #ad42e8; }
+.gelb { color: #e8dc00; }
+.tuerkis { color: #5bfdff; }
+.oliv { color: #c5c66d; }
+.bg_rot { background-color: #c22d16; }
+.bg_gruen { background-color: #45f958; }
+.bg_blau { background-color: #1f6fa5; }
+.bg_violett { background-color: #ad42e8; }
+.bg_gelb { background-color: #e8dc00; }
+.bg_tuerkis { background-color: #5bfdff; }
+.bg_oliv { background-color: #c5c66d; }
+
+/* WireFrame */
+ #content-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header  {
+	position: relative;	
+}
+
+header img {
+	width: 400px;	
+	margin-right: 50px;
+	float: right;
+}
+
+#navigation-wrapper {
+	margin-bottom: 35px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display:  block;
+	float: left;
+	margin-right: 18px;	
+	color: #E6E6E6;
+	padding: 11px 24px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+nav ul li:hover {
+	background-color: #d02c00;
+}	
+nav ul li.active {
+	background-color: 	#c5c66d;
+}	
+.submenu{
+    display:none;
+}
+
+.navi:hover .submenu{
+    display:inline;
+    position:absolute;
+    z-index:3;
+    margin-left:-200px;
+    margin-top: 27px;
+    width: 200px;
+    text-align: center;
+    }
+.navi:hover .submenu li{
+    display:block;
+    background-color:#D4D592;
+    margin-top: 1px;
+    width: 200px;
+}
+.navi:hover .submenu li:hover{
+	background-color: 	#c5c66d;
+}
+
+
+
+#main {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+
+.page-wrapper {
+	background-color: white;
+	min-height: 400px;
+	padding: 20px 20px 20px 20px;
+	-webkit-box-shadow: 12px 12px 20px 2px #555; /* WebKit */
+	-moz-box-shadow: 12px 12px 20px 2px #555; /* Firefox */
+	box-shadow: 12px 12px 20px 2px #555; /* Standard */ 	
+	border-radius: 25px;
+	z-index: 2;
+}
+.zentriert_960 {
+  position: relative;
+  width: 960px;
+  margin:  0px auto;
+}
+.clear { clear:both; height: 0px; }
+.left { float: left;}
+.right { float: right;}
+
+#home {
+	text-align: center;	
+}
+/* SeminarListe */
+#programm { 
+	text-align: center;
+	margin: 35px 0 60px 0;
+	color: #1f6fa5;
+}
+.semteaser-wrapper {
+	width: 427px;
+	min-height: 245px;
+	margin-bottom: 20px;
+	padding: 20px;
+	float: left;
+	-webkit-box-shadow: 8px 8px 10px 2px #c5c66d; /* WebKit */
+	-moz-box-shadow: 8px 8px 10px 2px #c5c66d; /* Firefox */
+	box-shadow: 8px 8px 10px 2px #c5c66d; /* Standard */ 	
+	border-radius: 15px;
+	border: 1px solid #c5c66d;
+	background-color: #eaefd6;
+	background-image: url('../bilder/bg_liste.png');
+	background-position: bottom  right;
+	background-repeat: no-repeat;
+}
+.semteaser-wrapper .headerbox {
+	margin-top: 45px;
+	text-align: center;
+}
+.semteaser-wrapper .headerbox a {
+	color: #1f6fa5;
+}
+
+.left-column { margin-right: 20px;}
+
+.semteaser-wrapper .textbox { 
+	padding: 7px 90px 7px 7px;
+}
+
+/* Seminar Detail */
+article.seminar-detailbox {
+	position: relative;
+	padding: 0 30px;
+} 
+article.seminar-detailbox h1,
+article.seminar-detailbox h2 {
+	color: #c22d16;
+} 
+article.seminar-detailbox .fbbox {
+	position: relative;
+	width: 300px;
+	height: 100px;
+	background-color: #c5c66d; /* nachgefragt */
+	margin: -180px 0 65px 780px;
+border-top-left-radius:25px;
+border-bottom-left-radius:25px; 	
+}
+article.seminar-detailbox .fbbox div {
+	text-align: right;
+	color: #C22D16;	
+	position: relative;
+	width: 150px;
+	padding-top: 20px;
+}
+article.seminar-detailbox .fbbox div.fb {
+	font-size: 14px;
+	font-weight: normal;
+}
+article.seminar-detailbox .fbbox div.lfdnr {
+	font-size: 35px;
+	font-weight: 800;
+}
+
+article.seminar-detailbox .topicbox, 
+article.seminar-detailbox .terminbox,
+div.formular-wrapper div.text {
+	float: left;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5em;
+	text-align: left;
+}	
+article.seminar-detailbox .tippbox, 
+article.seminar-detailbox .infobox,
+article.seminar-detailbox .modulbox {
+	float: right;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.2em;
+	text-align: right;
+}	
+
+article.seminar-detailbox .left {
+	width: 69%;
+}
+article.seminar-detailbox .right {
+	width: 29%;
+}
+
+/*  Form */
+div.formular-wrapper {
+	padding: 0 50px 10px 20px;
+}
+div.formular-wrapper div#anm-header {
+	margin-bottom: 90px;
+}
+div.formular-wrapper div.form {
+	width: 44%;
+	padding-top: 50px;
+}
+
+div.formular-wrapper div.fehler {
+	color: red;
+	font-size: 14px;
+	line-height: 1.1em;
+	padding-top: 20px;
+}
+div.formular-wrapper div.form .label,
+.fh_kontaktlabel {
+	width: 200px;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #c22d16;
+	padding-top: 3px;
+}
+div.formular-wrapper div.form .long {
+	width: 395px;
+	font-size: 12px;
+}
+
+div.formular-wrapper div.form input {
+	width: 245px;
+	float: right;
+	margin-top: -4px;
+}
+div.formular-wrapper div.form input.checkbox {
+	margin-top: 2px;
+}
+div.formular-wrapper div.form div.formline {
+	width: 100%;
+	margin-bottom: 15px;
+}
+div.formular-wrapper div.form input.klein { 
+	width: 52px;
+}
+div.formular-wrapper div.form input.kleiner { 
+	width: 185px;
+}
+div.formular-wrapper div.form button {
+	margin-top: 80px;
+}
+div.formular-wrapper div.form div.text input {
+	margin-top: 11px;
+}
+div.formular-wrapper #kostenhinweis {
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.formular-wrapper div.agb {
+	width: 42%;
+	text-align: right;
+	font-size: 11px;
+	float: right;
+}
+div.formular-wrapper div.agb a, 
+div.formular-wrapper div.agb a:hover, 
+div.formular-wrapper div.agb a:active { 
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+}
+	
+.footer {
+  background-image: url('../bilder/kinder.png');
+  background-position: top center; 	
+  background-repeat: no-repeat;
+  height: 237px;
+	z-index: 2;
+}
+
+.footer-content {
+	padding-top: 137px;
+	text-align: center;
+	color: #d02c00;
+}
+.footer-content .zeile1 {
+	font-size: 14px; 
+	font-weight: bold;
+	color: #d02c00;
+	margin-bottom: 10px;
+}
+.footer-content .zeile3 {
+	font-size: 12px; 
+	color: black;
+}
+#welle {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 30%;
+	z-index: 1;
+	}
+
+/* Links */
+ 
+a {
+    text-decoration: none;
+    color: #47423F;
+}
+
+/* Kontaktformular */
+.nosee { display:none; }
+
+#fh_kontaktform_wrapper {
+	width: 50%;  
+  margin:  0 auto;
+  padding: 30px 0;
+}
+
+.fh_kontaktitem {
+  margin:8px 0px 5px 0px;
+}
+  
+.fh_kontaktlabel {
+  font-weight: bold;
+  width: 500px;
+  margin-bottom: 15px;
+  line-height: 1.2em;  
+}
+
+.fh_kontaktitem input,
+.fh_kontaktitem textarea {
+    margin:0px 0px 0px 0px;  
+    padding:0px 0px 0px 0px;  
+}
+  
+.fh_kontaktitem input,
+.fh_kontaktitem textarea { 
+	height: 30px; 
+	width: 420px;
+}
+.fh_kontaktitem textarea { 
+	height: 100px; 
+}
+/* mein Unternehmen */
+
+.onepage {
+	padding: 20px 30px;
+}
+
+.onepage h2 {
+	color: #c22d16;
+	margin-bottom: 30px;
+	line-height: 1.5em;
+	
+}
+
+.onepage p {
+	text-indent:2em;
+	line-height: 1.4em;
+}
+.onepage li {
+	line-height: 1.4em;
+}
+
+.onepage ul {
+}
+
+
+
