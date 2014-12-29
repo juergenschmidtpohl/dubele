@@ -85,7 +85,8 @@ $seite = paranoid($_GET['seite']);
 									<a href="<?php echo $ROOT;?>home.htm">Home</a>
 								</li>						
 								<li<?php if ($seite=='liste' || $seite=='seminar') echo $activClass; ?> >
-									<a href="<?php echo $ROOT; ?>seminarangebot.htm">Seminarprogramm</a>
+			<!--						<a href="<?php echo $ROOT; ?>seminarangebot.htm">Seminarprogramm</a>-->
+									<a href="<?php echo $ROOT; ?>/index.php?seite=liste">Seminarprogramm</a>
 								</li>						
 								<li 
 									<?php 
@@ -106,6 +107,9 @@ $seite = paranoid($_GET['seite']);
 										<li<?php if ($seite=='anfahrt') echo $activClass; ?>><a href="<?php echo $ROOT;	?>anfahrt.htm">Anfahrt</a></li>									
 									</ul>						
 								</li>
+								<li<?php if ($seite=='bolle') echo $activClass; ?> >
+									<a href="<?php echo $ROOT;	?>bolle.htm">Bolle</a>
+								</li>									
 								<li<?php if ($seite=='kontakt') echo $activClass; ?> >
 									<a href="<?php echo $ROOT;	?>kontakt.htm">Kontakt</a>
 								</li>						
@@ -151,6 +155,9 @@ $seite = paranoid($_GET['seite']);
                             case 'anmeldung':
                                 include('includes/anmeldung.inc.php');
                                 break;
+                            case 'bolle':
+                                include('includes/bolle.inc.php');
+                                break;                                
                             default:
                                 include('includes/home.inc.php');
                                 break;

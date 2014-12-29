@@ -9,4 +9,11 @@
 			} # alle topics
 		?>	
 		</ul>	
+		<br />
+		<h2><?php echo $vorRede['bolle_headline']; ?></h2>
+		<?php
+			for ( $i=1; $i<=count($vorRede['bolle']); $i++) {
+				echo '<p>'.$vorRede['bolle'][$i].'</p>';
+			} # alle topics
+		?>	
 	</div>

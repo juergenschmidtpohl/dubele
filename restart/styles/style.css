@@ -99,9 +99,9 @@ nav ul {
 nav ul li {
 	display:  block;
 	float: left;
-	margin-right: 18px;	
+	margin-right: 10px;	
 	color: #E6E6E6;
-	padding: 11px 24px;
+	padding: 11px 20px;
 	border-radius: 8px;
 	font-size: 20px;
 	font-weight: 500;
@@ -163,6 +163,8 @@ nav ul li.active {
 .clear { clear:both; height: 0px; }
 .left { float: left;}
 .right { float: right;}
+.halb { width: 45%; padding: 1rem; }
+.halb img { width: 100%; }
 
 #home {
 	text-align: center;	
@@ -424,11 +426,11 @@ a {
 }
 
 .onepage p {
-	text-indent:2em;
+	text-indent:0em;
 	line-height: 1.4em;
 }
 .onepage li {
-	line-height: 1.4em;
+	line-height: 1.8em;
 }
 
 .onepage ul {

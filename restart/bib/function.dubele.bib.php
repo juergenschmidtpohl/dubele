@@ -19,6 +19,9 @@
 	#
 	function createSeminarLink($id, $text) {
 		$url = $ROOT.'seminar_'.$id.'/'.makeUrlText($text).'.htm';
+		# test
+		$url = $ROOT.'index.php?seite=seminar&id='.$id;
+		
 		return $url;
 		}
 

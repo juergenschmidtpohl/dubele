@@ -1,11 +1,11 @@
 <?php
-$query = "SELECT * FROM dub_sem_seminare ORDER BY lfd_nr";
+$query = "SELECT * FROM dub_sem_seminare WHERE published=1 ORDER BY lfd_nr";
 $alleItems = mysql_query($query);
 $count = -1;
 $einItem = mysql_fetch_array($alleItems, MYSQL_ASSOC);
 ?>
 
-<h1 id="programm" >Seminarprogramm 2014</h1>
+<h1 id="programm" >Seminarprogramm 2015</h1>
 <?php
 do {
     $lfd_nr = $einItem['lfd_nr'];

@@ -61,6 +61,19 @@ $GLOBAL_PFAD_ZU_BILDERN = $GLOBAL_BASE_URL.'bilder/';
 	$link_11 = $ROOT.'seminar_11/wir-wollen-uns-bewegen.htm';
 	$link_12 = $ROOT.'seminar_12/kinderschutz.htm';
 
+  $link_13 = $ROOT.'seminar_13/nestwaerme.htm';
+  $link_14 = $ROOT.'seminar_14/praxisanleitung.htm';
+  $link_15 = $ROOT.'seminar_15/sprache.htm';
+  $link_16 = $ROOT.'seminar_16/rituale-fuer-die-krippe.htm';
+  $link_17 = $ROOT.'seminar_17/entwicklung-sichtbar-machen.htm';
+  $link_18 = $ROOT.'seminar_18/sinnliche-wahrnehmung.htm';
+  $link_19 = $ROOT.'seminar_19/psychomotorik.htm';
+  $link_20 = $ROOT.'seminar_20/den-forschergeist-der-grossen-wecken.htm';
+  $link_21 = $ROOT.'seminar_21/erlebe-den-wald-einmal-anders.htm';
+  $link_22 = $ROOT.'seminar_22/raus-aus-dem-kitatrott-!!!.htm';
+  $link_23 = $ROOT.'seminar_23/stress-lass-nach.htm';
+  $link_24 = $ROOT.'seminar_24/wahrnehmumgsstoerungen-und-das-taegliche-leben.htm';
+
 	$link_entwicklungsfragen = $ROOT.'entwicklungsfragen.htm';
 	$link_angebote = $ROOT.'mein_angebot.htm';
 ?>

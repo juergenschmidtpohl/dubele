@@ -15,6 +15,7 @@ RewriteRule entwicklungsfragen.htm			/index.php?seite=entwicklungsfragen
 RewriteRule mein_angebot.htm					/index.php?seite=angebote
 RewriteRule anfahrt.htm							/index.php?seite=anfahrt
 RewriteRule kontakt.htm							/index.php?seite=kontakt
+RewriteRule bolle.htm							/index.php?seite=bolle
 RewriteRule impressum.htm						/index.php?seite=impressum
 RewriteRule anmeldung/termin_([0-9]+)\.htm  /index.php?seite=anmeldung&&termin=$1
 

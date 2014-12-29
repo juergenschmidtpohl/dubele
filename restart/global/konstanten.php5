@@ -1,9 +1,9 @@
 <?php
 
-# $ROOT = "http://localhost/dubele.de/";
-# $THIS_PAGE = "http://localhost/dubele.de/";
-  $ROOT = "http://www.dubele.de/";
-  $THIS_PAGE = "http://www.dubele.de/";
+ $ROOT = "http://localhost/dubele/restart/";
+ $THIS_PAGE = "http://localhost/dubele/restart/";
+#  $ROOT = "http://www.dubele.de/";
+#  $THIS_PAGE = "http://www.dubele.de/";
 #  $ROOT = "http://dubele.f&uuml;hrungen-am-limes.de/";
 #  $THIS_PAGE = "http://dubele.f&uuml;hrungen-am-limes.de/index.php";
 
